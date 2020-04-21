@@ -62,32 +62,33 @@ shinyServer(function(input, output) {
         
         # Observe Event for the 5 classes : when a button is pressed save the results in 
         # reactive vector and add one to the reactive counter to display following image
+        # You can change the class name depending on your needs
         
-        observeEvent(input$Swash, {
-            res$data <- c(res$data, "Swash")
+        observeEvent(input$Class_1, {
+            res$data <- c(res$data, "Class_1")
             counter$countervalue <- counter$countervalue + 1  
             
         })
         
-        observeEvent(input$Impact, {
-            res$data <- c(res$data, "Impact")
+        observeEvent(input$Class_2, {
+            res$data <- c(res$data, "Class_2")
             counter$countervalue <- counter$countervalue + 1  
             
         })
         
-        observeEvent(input$Splash, {
-            res$data <- c(res$data, "Splash")
+        observeEvent(input$Class_3, {
+            res$data <- c(res$data, "Class_3")
             counter$countervalue <- counter$countervalue + 1  
             
         })
         
-        observeEvent(input$Overwash, {
-            res$data <- c(res$data, "Overwash")
+        observeEvent(input$Class_4, {
+            res$data <- c(res$data, "Class_4")
             counter$countervalue <- counter$countervalue + 1  
         })
         
-        observeEvent(input$Undefined, {
-            res$data <- c(res$data, "Undefined")
+        observeEvent(input$Class_5, {
+            res$data <- c(res$data, "Class_5")
             counter$countervalue <- counter$countervalue + 1  
         })
         
