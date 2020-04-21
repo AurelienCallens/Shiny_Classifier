@@ -49,11 +49,11 @@ dash_body <- dashboardBody(
     br(),
     fluidRow(
         column(12, align="center",
-               actionButton("Swash", "Swash"),
-               actionButton("Impact", "Impact"), 
-               actionButton("Splash", "Splash"),
-               actionButton("Overwash", "Overwash"),
-               actionButton("Undefined", "Undefined")
+               actionButton("Class_1", "Class_1"),
+               actionButton("Class_2", "Class_2"), 
+               actionButton("Class_3", "Class_3"),
+               actionButton("Class_4", "Class_4"),
+               actionButton("Class_5", "Class_5")
         )
     ),
     br(),
