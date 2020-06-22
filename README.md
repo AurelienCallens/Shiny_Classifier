@@ -1,6 +1,6 @@
 # Shiny Classifier
 
-This shiny application simplifies the manual classification of images in a R framework by providing a simple but usefull user interface. 
+This shiny application simplifies the manual classification of images in a R framework by providing a simple but useful user interface. 
 
 # How it works ? 
 
