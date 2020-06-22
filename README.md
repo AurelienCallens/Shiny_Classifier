@@ -2,7 +2,7 @@
 
 This shiny application simplifies the manual classification of images in a R framework by providing a simple but useful user interface. 
 
-# How it works ? 
+# How does it work ? 
 
 To set up this classification application, you need to : 
 - Download this repository
